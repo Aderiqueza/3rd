@@ -1,0 +1,23 @@
+body{
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container{
+    border: 10px solid red;
+    width: 30%;
+
+}
+.picture-details{
+    display: flex;
+}
+
+.profile-picture{
+    width: 20%;
+    border-radius: 20%;
+    color: red;
+}
