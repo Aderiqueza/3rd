@@ -17,7 +17,7 @@ p{
 }
 .container{
     border: 1px solid grey;
-    width: 30%;
+    width: 45%;
     border-radius: 25px;
     line-height: 25px;
     margin-left: 4%;
@@ -41,11 +41,18 @@ p{
     margin-bottom: 15px;
 }
 .picture-details{
-    display: flex;
+   
+
+}
+.author-name,.site-name {
+    font-size: 18px;
+}
+.site-name{
+    color: #8c8c95;
 }
 
 .profile-picture{
-    width: 20%;
+    width: 25%;
     border-radius: 20%;
     color: red;
 }
