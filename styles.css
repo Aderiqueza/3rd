@@ -1,11 +1,15 @@
 body{
     font-family: 'Space Grotesk', sans-serif;
-    
-
+}   
+.all-container{
+    display: grid;
+    row-gap: 40px;
 
 }
-.parent-container{display: flex;
-    
+
+
+.parent-container{
+    display: flex;
 
 }
 h1{
@@ -21,10 +25,13 @@ p{
 }
 .container{
     border: 1px solid grey;
-    width: 45%;
+    width: 405;
     border-radius: 25px;
     line-height: 25px;
     margin-left: 4%;
+    margin-right: 4%;
+    box-shadow: rgba(20, 20, 43, 0.05);
+
 
 }
 .in-content{
