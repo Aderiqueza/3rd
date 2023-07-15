@@ -1,5 +1,6 @@
 body{
     font-family: 'Space Grotesk', sans-serif;
+    background: #FFFFFF;
 }   
 .all-container{
     display: grid;
@@ -9,7 +10,9 @@ body{
 
 
 .parent-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2px;
 
 }
 h1{
@@ -24,13 +27,14 @@ p{
     margin-bottom: 0;
 }
 .container{
-    border: 1px solid grey;
+    border: 1px solid gainsboro;
     width: 405;
     border-radius: 25px;
     line-height: 25px;
     margin-left: 4%;
     margin-right: 4%;
     box-shadow: rgba(20, 20, 43, 0.05);
+    column-gap: ;
 
 
 }
