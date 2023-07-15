@@ -54,22 +54,19 @@ p{
 }
 .picture-details{
     display: flex;
-    width: 100%;
-   
+    
 
 }
-
 .author-site{
-    width: 100%;
+   width: 100%;
 }
 .author-name {
-    font-size: 18px;
-    
- 
+    font-size: 18px; 
 }
 .site-name{
     color: #8c8c95;
     font-size: 18px;
+    
 }
 
 .profile-picture{
